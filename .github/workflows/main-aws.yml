@@ -2,7 +2,7 @@ name: DockerBuildPushAWS
 
 on:
   push:
-    branches: [ IS-5-create-sugarfunge-status-docker-image-on-aws ]
+    branches: [ master ]
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
